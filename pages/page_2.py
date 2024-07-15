@@ -9,6 +9,7 @@ st.sidebar.markdown("# Page 2 ❄️")
 
 # Load the GeoJSON file (you need to download the file and provide the path here)
 geojson_path = 'departement-60-oise.geojson'
+geojson_path = 'departments.geojson'
 
 # Read the GeoJSON file into a GeoDataFrame
 gdf = gpd.read_file(geojson_path)
